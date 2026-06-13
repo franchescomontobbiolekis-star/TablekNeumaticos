@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TABLEK | Neumáticos Yokohama</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+header{
+    background:#d60000;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    font-size:3em;
+}
+
+nav{
+    background:#111;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.hero{
+    position:relative;
+}
+
+.hero img{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+}
+
+.hero-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    text-align:center;
+    background:rgba(0,0,0,0.6);
+    padding:20px;
+    border-radius:10px;
+}
+
+.hero-text h2{
+    font-size:2.5em;
+    margin-bottom:10px;
+}
+
+.seccion{
+    padding:50px 20px;
+    text-align:center;
+}
+
+.productos{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    margin-top:30px;
+}
+
+.card{
+    width:320px;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 3px 12px rgba(0,0,0,0.15);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:15px 0;
+}
+
+.card p{
+    padding:0 15px 15px;
+}
+
+.btn{
+    display:block;
+    background:#d60000;
+    color:white;
+    text-decoration:none;
+    padding:12px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#b30000;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>TABLEK</h1>
+    <p>Distribuidor Oficial de Neumáticos Yokohama</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#productos">Productos</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section class="hero" id="inicio">
+    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1600" alt="Auto deportivo">
+    
+    <div class="hero-text">
+        <h2>Neumáticos Yokohama</h2>
+        <p>Máximo rendimiento, seguridad y calidad.</p>
+    </div>
+</section>
+
+<section class="seccion" id="productos">
+    <h2>Nuestros Productos</h2>
+
+    <div class="productos">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=900" alt="Neumático deportivo">
+            <h3>Yokohama ADVAN Sport</h3>
+            <p>Excelente agarre y rendimiento para autos deportivos.</p>
+            <a href="#" class="btn">Consultar</a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=900" alt="SUV">
+            <h3>Yokohama Geolandar</h3>
+            <p>Ideal para SUV, camionetas y caminos exigentes.</p>
+            <a href="#" class="btn">Consultar</a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=900" alt="Automóvil">
+            <h3>Yokohama BluEarth</h3>
+            <p>Mayor eficiencia y ahorro de combustible.</p>
+            <a href="#" class="btn">Consultar</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="seccion">
+    <h2>¿Por qué elegir Yokohama?</h2>
+    <p>
+        Tecnología japonesa, máxima seguridad, excelente duración y
+        rendimiento comprobado en todo tipo de caminos.
+    </p>
+</section>
+
+<footer id="contacto">
+    <h2>TABLEK</h2>
+    <p>Venta de neumáticos Yokohama</p>
+    <p>📞 +595 XXX XXX XXX</p>
+    <p>✉ ventas@tablek.com</p>
+    <p>📍 Asunción, Paraguay</p>
+</footer>
+
+</body>
+</html>
